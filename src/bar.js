@@ -130,7 +130,7 @@ var MenuBar = View.extend({
         this.$user.prependTo(this.$el);
         this.listenTo(user, "set", this.onUserChange);
         this.onUserChange();
-
+        debugger;
         // Workspace name
         this.$workspace = $("<span>", {
             'class': "menubar-workspace",
